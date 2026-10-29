@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painter's Club Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Painter's Club</h1>
+        <p>Join our community of artists and share your passion for painting!</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#join">Join</a></li>
+            </ul>
+            </nav>
+
+            <main>
+
+                <!-- About section -->
+                 <section id="about" class="box">
+                    <h2>About Us</h2>
+                    <p>The Painter's Club is a community of artists who come together to share techniques, collaborate on projects, and inspire each other.</p>
+               </section>
+
+               <!-- Why Join Section-->
+
+                <section id="reasons">
+                    <h2>Why Join?</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <h3>Learn</h3>
+                            <p>Expand your skills and learn new painting techniques from experienced artists.</p>
+                        </div>
+
+                        <div class="card">
+                            <h3>Collaborate</h3>
+                            <p>Work on collaborative art projects and gain inspiration from fellow members.</p>
+                        </div>
+
+                        <div class="card">
+                            <h3>Community</h3>
+                            <p>Connect with a supportive community of artists who share your passion for painting.</p>
+                        </div>
+                    </div>
+                    </section>
+
+                <!-- Schedule section -->
+                <section id="schedule" class="box">
+                    <h2>Schedule</h2>
+                    <p>Our club meets every Saturday at 2 PM. Check our calendar for special events and workshops.</p>
+                </section>
+
+                <!-- Join section -->
+                <section id="join" class="box">
+                    <h2>Join the Club</h2>
+                    <form>
+                        <div class="field">
+                          <label for="name">Your name</label>
+                          <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                        </div>
+                      
+                        <div class="field">
+                          <label for="email">Email address</label>
+                          <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                        </div>
+                      
+                        <div class="field">
+                          <label for="password">Create password</label>
+                          <input type="password" id="password" name="password" required>
+                        </div>
+                      
+                        <div class="field">
+                          <label for="medium">Preferred Painting Medium</label>
+                          <select id="medium" name="medium" required>
+                            <option value="" disabled selected>Select your primary medium</option>
+                            <option value="oil">Oil Painting</option>
+                            <option value="acrylic">Acrylic</option>
+                            <option value="watercolor">Watercolor</option>
+                            <option value="gouache">Gouache</option>
+                            <option value="mixed-media">Mixed Media / Digital</option>
+                          </select>
+                        </div>
+                      
+                        <div class="field">
+                          <label for="experience">Tell us about your art background or goals</label>
+                          <textarea id="message" name="message" rows="4" placeholder="Share your experience level, favorite subjects, or what you hope to get out of the club..."></textarea>
+                        </div>
+                      
+                        <button type="submit">Join Painter's Club</button>
+                      </form>
+                    </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Painter's Club. All rights reserved.</p>
+    </footer> 
+    </body>
+</html>
